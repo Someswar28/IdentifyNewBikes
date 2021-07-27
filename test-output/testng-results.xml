@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="18" passed="18" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-07-26T20:09:09 IST" name="Default suite" finished-at="2021-07-26T20:11:59 IST" duration-ms="169294">
+    <groups>
+      <group name="SmokeTest">
+        <method signature="AppTest.ClickOnNextBtn()[pri:7, instance:com.IdentifyNewBikes.Tests.AppTest@42b64ab8]" name="ClickOnNextBtn" class="com.IdentifyNewBikes.Tests.AppTest"/>
+        <method signature="AppTest.callingBrowser()[pri:1, instance:com.IdentifyNewBikes.Tests.AppTest@42b64ab8]" name="callingBrowser" class="com.IdentifyNewBikes.Tests.AppTest"/>
+        <method signature="AppTest.clickNxt2Btn()[pri:9, instance:com.IdentifyNewBikes.Tests.AppTest@42b64ab8]" name="clickNxt2Btn" class="com.IdentifyNewBikes.Tests.AppTest"/>
+        <method signature="AppTest.clickOnChennaiBtn()[pri:16, instance:com.IdentifyNewBikes.Tests.AppTest@42b64ab8]" name="clickOnChennaiBtn" class="com.IdentifyNewBikes.Tests.AppTest"/>
+        <method signature="AppTest.clickOnNewBikes()[pri:10, instance:com.IdentifyNewBikes.Tests.AppTest@42b64ab8]" name="clickOnNewBikes" class="com.IdentifyNewBikes.Tests.AppTest"/>
+        <method signature="AppTest.clickOnUpcomingBikes()[pri:11, instance:com.IdentifyNewBikes.Tests.AppTest@42b64ab8]" name="clickOnUpcomingBikes" class="com.IdentifyNewBikes.Tests.AppTest"/>
+        <method signature="AppTest.clickOnUsedCars()[pri:15, instance:com.IdentifyNewBikes.Tests.AppTest@42b64ab8]" name="clickOnUsedCars" class="com.IdentifyNewBikes.Tests.AppTest"/>
+        <method signature="AppTest.invalidEmail()[pri:6, instance:com.IdentifyNewBikes.Tests.AppTest@42b64ab8]" name="invalidEmail" class="com.IdentifyNewBikes.Tests.AppTest"/>
+        <method signature="AppTest.pageOpening()[pri:2, instance:com.IdentifyNewBikes.Tests.AppTest@42b64ab8]" name="pageOpening" class="com.IdentifyNewBikes.Tests.AppTest"/>
+        <method signature="AppTest.selectContinueWithGoogle()[pri:5, instance:com.IdentifyNewBikes.Tests.AppTest@42b64ab8]" name="selectContinueWithGoogle" class="com.IdentifyNewBikes.Tests.AppTest"/>
+        <method signature="AppTest.selectLogin()[pri:4, instance:com.IdentifyNewBikes.Tests.AppTest@42b64ab8]" name="selectLogin" class="com.IdentifyNewBikes.Tests.AppTest"/>
+        <method signature="AppTest.validEmailInvalidPassword()[pri:8, instance:com.IdentifyNewBikes.Tests.AppTest@42b64ab8]" name="validEmailInvalidPassword" class="com.IdentifyNewBikes.Tests.AppTest"/>
+      </group> <!-- SmokeTest -->
+    </groups>
+    <test started-at="2021-07-26T20:09:09 IST" name="Default test" finished-at="2021-07-26T20:11:59 IST" duration-ms="169294">
+      <class name="com.IdentifyNewBikes.Tests.AppTest">
+        <test-method signature="callingBrowser()[pri:1, instance:com.IdentifyNewBikes.Tests.AppTest@42b64ab8]" started-at="2021-07-26T20:09:10 IST" name="callingBrowser" finished-at="2021-07-26T20:09:27 IST" duration-ms="17511" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- callingBrowser -->
+        <test-method signature="pageOpening()[pri:2, instance:com.IdentifyNewBikes.Tests.AppTest@42b64ab8]" started-at="2021-07-26T20:09:27 IST" name="pageOpening" finished-at="2021-07-26T20:09:38 IST" duration-ms="10807" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageOpening -->
+        <test-method signature="pageTitle()[pri:3, instance:com.IdentifyNewBikes.Tests.AppTest@42b64ab8]" started-at="2021-07-26T20:09:38 IST" name="pageTitle" finished-at="2021-07-26T20:09:39 IST" duration-ms="1213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageTitle -->
+        <test-method signature="selectLogin()[pri:4, instance:com.IdentifyNewBikes.Tests.AppTest@42b64ab8]" started-at="2021-07-26T20:09:39 IST" name="selectLogin" finished-at="2021-07-26T20:09:46 IST" duration-ms="7021" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectLogin -->
+        <test-method signature="selectContinueWithGoogle()[pri:5, instance:com.IdentifyNewBikes.Tests.AppTest@42b64ab8]" started-at="2021-07-26T20:09:46 IST" name="selectContinueWithGoogle" finished-at="2021-07-26T20:09:55 IST" duration-ms="8486" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectContinueWithGoogle -->
+        <test-method signature="invalidEmail()[pri:6, instance:com.IdentifyNewBikes.Tests.AppTest@42b64ab8]" started-at="2021-07-26T20:09:55 IST" name="invalidEmail" finished-at="2021-07-26T20:10:07 IST" duration-ms="11956" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidEmail -->
+        <test-method signature="ClickOnNextBtn()[pri:7, instance:com.IdentifyNewBikes.Tests.AppTest@42b64ab8]" started-at="2021-07-26T20:10:07 IST" name="ClickOnNextBtn" finished-at="2021-07-26T20:10:10 IST" duration-ms="3963" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnNextBtn -->
+        <test-method signature="validEmailInvalidPassword()[pri:8, instance:com.IdentifyNewBikes.Tests.AppTest@42b64ab8]" started-at="2021-07-26T20:10:11 IST" name="validEmailInvalidPassword" finished-at="2021-07-26T20:10:22 IST" duration-ms="11403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validEmailInvalidPassword -->
+        <test-method signature="clickNxt2Btn()[pri:9, instance:com.IdentifyNewBikes.Tests.AppTest@42b64ab8]" started-at="2021-07-26T20:10:22 IST" name="clickNxt2Btn" finished-at="2021-07-26T20:10:30 IST" duration-ms="7708" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickNxt2Btn -->
+        <test-method signature="clickOnNewBikes()[pri:10, instance:com.IdentifyNewBikes.Tests.AppTest@42b64ab8]" started-at="2021-07-26T20:10:30 IST" name="clickOnNewBikes" finished-at="2021-07-26T20:10:34 IST" duration-ms="4616" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnNewBikes -->
+        <test-method signature="clickOnUpcomingBikes()[pri:11, instance:com.IdentifyNewBikes.Tests.AppTest@42b64ab8]" started-at="2021-07-26T20:10:34 IST" name="clickOnUpcomingBikes" finished-at="2021-07-26T20:10:40 IST" duration-ms="5921" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnUpcomingBikes -->
+        <test-method signature="pageTitle1()[pri:12, instance:com.IdentifyNewBikes.Tests.AppTest@42b64ab8]" started-at="2021-07-26T20:10:40 IST" name="pageTitle1" finished-at="2021-07-26T20:10:40 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageTitle1 -->
+        <test-method signature="selectHondaCompanyBikes()[pri:13, instance:com.IdentifyNewBikes.Tests.AppTest@42b64ab8]" started-at="2021-07-26T20:10:40 IST" name="selectHondaCompanyBikes" finished-at="2021-07-26T20:11:08 IST" duration-ms="28220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectHondaCompanyBikes -->
+        <test-method signature="selectingBikes()[pri:14, instance:com.IdentifyNewBikes.Tests.AppTest@42b64ab8]" started-at="2021-07-26T20:11:08 IST" name="selectingBikes" finished-at="2021-07-26T20:11:26 IST" duration-ms="17872" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectingBikes -->
+        <test-method signature="clickOnUsedCars()[pri:15, instance:com.IdentifyNewBikes.Tests.AppTest@42b64ab8]" started-at="2021-07-26T20:11:26 IST" name="clickOnUsedCars" finished-at="2021-07-26T20:11:33 IST" duration-ms="7046" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnUsedCars -->
+        <test-method signature="clickOnChennaiBtn()[pri:16, instance:com.IdentifyNewBikes.Tests.AppTest@42b64ab8]" started-at="2021-07-26T20:11:33 IST" name="clickOnChennaiBtn" finished-at="2021-07-26T20:11:49 IST" duration-ms="15868" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnChennaiBtn -->
+        <test-method signature="pageTile2()[pri:17, instance:com.IdentifyNewBikes.Tests.AppTest@42b64ab8]" started-at="2021-07-26T20:11:49 IST" name="pageTile2" finished-at="2021-07-26T20:11:49 IST" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageTile2 -->
+        <test-method signature="getUsedCars()[pri:18, instance:com.IdentifyNewBikes.Tests.AppTest@42b64ab8]" started-at="2021-07-26T20:11:49 IST" name="getUsedCars" finished-at="2021-07-26T20:11:57 IST" duration-ms="7548" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUsedCars -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.IdentifyNewBikes.Tests.AppTest@42b64ab8]" started-at="2021-07-26T20:11:57 IST" name="closeBrowser" finished-at="2021-07-26T20:11:59 IST" duration-ms="1859" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.IdentifyNewBikes.Tests.AppTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

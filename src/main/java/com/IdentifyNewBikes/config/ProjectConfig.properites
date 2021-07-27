@@ -1,0 +1,28 @@
+#------Gobal Varibles------
+BrowserName=chrome
+
+#-----LoginSignUp--------
+PopUpBtn_Xpath=//*[@id='alternate-login-close']
+SignInBtn_Id=forum_login_wrap_lg
+GoogleBtn_Id=googleSignIn
+UserNameTxtBox_Id=identifierId
+UserNxtBtn_Xpath=//*[@id='identifierNext']/div/button/span
+ErrorMgs1_Xpath=//*[@id="view_container"]/div/div/div[2]/div/div[1]/div/form/span/section/div/div/div[1]/div/div[2]/div[2]/div
+PassWordTxtBox_Xpath=//*[@id='password']/div[1]/div/div[1]/input
+PassNxtBtn_ClassName=VfPpkd-vQzf8d
+ErrorMgs2_Xpath=//*[contains(text(),'Wrong password')]
+
+#--------UpcomingBikes------
+PopUpBtn_Xpath=//*[@id='alternate-login-close']
+SignInBtn_Id=forum_login_wrap_lg
+ExitBtn_Id=report_submit_close_login
+NewBikesBtn_Xpath=//*[@id='headerNewNavWrap']/div[2]/ul/li[3]/a
+UpcomingBikesBtn_Xpath=//*[@id='headerNewNavWrap']/div[2]/ul/li[3]/ul/li[4]/a
+HondaBtn_Id=makeId
+ViewMoreBtn_ClassName=zw-cmn-loadMore
+MoveTo_ClassName=v-lnk
+
+#-----------------UsedCars--------
+PopUpBtn_Xpath=//*[@id='alternate-login-close']
+UsedCarsBtn_Xpath=//*[@id="headerNewNavWrap"]/div[2]/ul/li[5]/a
+ChennaiBtn_Xpath=//*[@id=\"headerNewNavWrap\"]/div[2]/ul/li[5]/ul/li/div[2]/ul/li[5]/a

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.IdentifyNewBikes.Tests.UsedCarsTest">
+        <methods>
+          <include name="clickOnUsedCars"/>
+          <include name="getUsedCars"/>
+          <include name="pageTile2"/>
+          <include name="closeBrowser"/>
+          <include name="clickOnChennaiBtn"/>
+        </methods>
+      </class> <!-- com.IdentifyNewBikes.Tests.UsedCarsTest -->
+      <class name="com.IdentifyNewBikes.Tests.LoginTest">
+        <methods>
+          <include name="clickNxt2Btn"/>
+          <include name="pageOpening"/>
+          <include name="pageTitle"/>
+          <include name="selectLogin"/>
+          <include name="validEmailInvalidPassword"/>
+          <include name="ClickOnNextBtn"/>
+          <include name="selectContinueWithGoogle"/>
+          <include name="closeBrowser"/>
+          <include name="invalidEmail"/>
+          <include name="callingBrowser"/>
+        </methods>
+      </class> <!-- com.IdentifyNewBikes.Tests.LoginTest -->
+      <class name="com.IdentifyNewBikes.Tests.UpcomingBikesTest">
+        <methods>
+          <include name="pageTitle1"/>
+          <include name="selectHondaCompanyBikes"/>
+          <include name="clickOnNewBikes"/>
+          <include name="clickOnUpcomingBikes"/>
+          <include name="closeBrowser"/>
+          <include name="selectingBikes"/>
+        </methods>
+      </class> <!-- com.IdentifyNewBikes.Tests.UpcomingBikesTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
